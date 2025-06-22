@@ -47,14 +47,14 @@ section {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   color: var(--text-color);
   font-weight: 700;
   cursor: default;
 }
 
 .navbar a {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text-color);
   margin-left: 4rem;
   font-weight: 700;
@@ -102,7 +102,7 @@ span {
   animation: floatImage 4s ease-in-out infinite;
 }
 
-@keyframes floatImage {
+/* @keyframes floatImage {
   0% {
     transform: translateY(0);
   }
@@ -112,10 +112,10 @@ span {
   100% {
     transform: translateY(0);
   }
-}
+} */
 
 .home-content p {
-  font-size: 1.6rem;
+  font-size: 2.2rem;
 }
 
 /* -----------------------------SOCIAL MEDIA------------------------------------------ */
@@ -186,7 +186,7 @@ span {
 }
 
 .about-content p {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 2rem 0 3rem;
 }
 
@@ -231,7 +231,7 @@ span {
 }
 
 .service-box p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: 1rem 0 3rem;
 }
 
@@ -394,7 +394,7 @@ span {
   color: var(--snd-bg-color);
 }
 
-/* Breaking point  */
+/*************************************** Breaking point  ************************************/
 
 @media (max-width: 1200px) {
   html {
@@ -443,7 +443,15 @@ span {
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     display: none;
-  }
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  } */
 
   .navbar.active {
     display: block;
